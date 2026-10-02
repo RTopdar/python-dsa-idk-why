@@ -1,4 +1,4 @@
-candies = [6,8,2,4,9,1]
+candies = [6, 8, 2, 4, 9, 1]
 
 extra_candies = 3
 

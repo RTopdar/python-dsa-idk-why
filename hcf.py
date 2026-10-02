@@ -1,8 +1,12 @@
-def hcf(n1,n2):
-    if(min(n1,n2)) == 0: return max(n1,n2)
-    return hcf(min(n1,n2),max(n1,n2)%min(n1,n2))
+def hcf(n1, n2):
+    small = min(n1, n2)
+
+    large = max(n1, n2)
+
+    if (small) == 0:
+        return large
+
+    return hcf(small, large % small)
 
 
-print(hcf(50,15))
-        
-
+print(hcf(50, 15))
