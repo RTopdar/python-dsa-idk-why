@@ -16,6 +16,10 @@ Random DSA/problem-solving scripts. Learning Python, trying stuff out.
 - **kids-with-candies.py** — LeetCode-style problem
 - **subtract-product-sum-of-integer.py** — Math operations on digits
 - **print_recursion.py** — Basic recursion demo
+- **anagram.py** — Check anagrams and group words that are anagrams of each other
+- **firstuniquechar.py** — Index of the first non-repeating character in a string
+- **longest_unique_substrings.py** — Longest substring with no repeated characters
+- **three_good_substrings.py** — Find every 3-character substring with all distinct characters (includes a small test runner)
 - **main.py** — Entry point (minimal)
 
 ## Running
