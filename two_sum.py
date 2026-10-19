@@ -13,4 +13,15 @@ def twoSum(nums: list[int], target: int) -> list[int]:
             if flag == True:
                 break
         return array
-print(twoSum([3,2,4],6))
+def twoSumWithHash(nums: list[int], target: int):
+     hashStore = {}
+     for key, value in enumerate(nums):
+          complement = target - value
+          if complement in hashStore:
+               return {
+                    "indices": [hashStore[complement],key],
+                    "values": [complement, value]
+               }
+          hashStore[value] = key
+     return []
+print(twoSumWithHash([3,2,4],6))
