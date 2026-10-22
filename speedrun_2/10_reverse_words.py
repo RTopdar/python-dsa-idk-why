@@ -13,8 +13,7 @@ from _runner import run_tests
 
 
 def reverse_words(s):
-    # write your solution here
-    pass
+    return " ".join(s.split()[::-1])
 
 
 CASES = [
