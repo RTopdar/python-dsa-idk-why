@@ -61,57 +61,57 @@ uv run speedrun_2/run_all.py      # scoreboard for all problems
 
 Current output of `run_all.py`:
 
-```text
- 7/7   01_two_sum.py
- 7/7   02_contains_duplicate.py
- 7/7   03_move_zeroes.py
- 7/7   04_best_time_to_buy_sell_stock.py
-11/11  05_maximum_subarray.py
- 6/6   06_product_except_self.py
- 6/6   07_missing_number.py
- 7/7   08_merge_intervals.py
- 8/8   09_valid_palindrome.py
- 7/7   10_reverse_words.py
- 0/7   11_valid_anagram.py
- 0/7   12_first_unique_char.py
- 0/8   13_longest_substring_no_repeat.py
- 0/7   14_string_compression.py
- 0/7   15_longest_common_prefix.py
- 0/6   16_intersection_of_arrays.py
- 0/7   17_longest_consecutive_sequence.py
- 0/7   18_happy_number.py
- 0/6   19_find_all_duplicates.py
- 0/6   20_group_anagrams.py
- 0/6   21_top_k_frequent.py
- 0/6   22_majority_element.py
- 0/6   23_word_frequency.py
- 0/7   24_isomorphic_strings.py
- 0/7   25_subarray_sum_equals_k.py
- 0/5   26_fizzbuzz.py
- 0/7   27_spiral_matrix.py
- 0/5   28_pascals_triangle.py
- 0/7   29_rotate_array.py
- 0/8   30_valid_parentheses.py
- 0/7   31_three_sum.py
- 0/6   32_ransom_note.py
- 0/6   33_word_pattern.py
- 0/7   34_roman_to_integer.py
- 0/7   35_sort_colors.py
- 0/7   36_pivot_index.py
- 0/7   37_summary_ranges.py
- 0/5   38_jewels_and_stones.py
- 0/5   39_set_mismatch.py
- 0/7   40_is_subsequence.py
- 0/5   41_rotate_image.py
- 0/5   42_find_disappeared_numbers.py
- 0/6   43_merge_sorted_arrays.py
- 0/7   44_longest_repeating_replacement.py
- 0/5   45_valid_sudoku.py
- 0/6   46_find_all_anagrams.py
- 0/6   47_unique_emails.py
- 0/7   48_second_largest.py
+```diff
++  7/7   01_two_sum.py
++  7/7   02_contains_duplicate.py
++  7/7   03_move_zeroes.py
++  7/7   04_best_time_to_buy_sell_stock.py
++ 11/11  05_maximum_subarray.py
++  6/6   06_product_except_self.py
++  6/6   07_missing_number.py
++  7/7   08_merge_intervals.py
++  8/8   09_valid_palindrome.py
++  7/7   10_reverse_words.py
+-  0/7   11_valid_anagram.py
+-  0/7   12_first_unique_char.py
+-  0/8   13_longest_substring_no_repeat.py
+-  0/7   14_string_compression.py
+-  0/7   15_longest_common_prefix.py
+-  0/6   16_intersection_of_arrays.py
+-  0/7   17_longest_consecutive_sequence.py
+-  0/7   18_happy_number.py
+-  0/6   19_find_all_duplicates.py
+-  0/6   20_group_anagrams.py
+-  0/6   21_top_k_frequent.py
+-  0/6   22_majority_element.py
+-  0/6   23_word_frequency.py
+-  0/7   24_isomorphic_strings.py
+-  0/7   25_subarray_sum_equals_k.py
+-  0/5   26_fizzbuzz.py
+-  0/7   27_spiral_matrix.py
+-  0/5   28_pascals_triangle.py
+-  0/7   29_rotate_array.py
+-  0/8   30_valid_parentheses.py
+-  0/7   31_three_sum.py
+-  0/6   32_ransom_note.py
+-  0/6   33_word_pattern.py
+-  0/7   34_roman_to_integer.py
+-  0/7   35_sort_colors.py
+-  0/7   36_pivot_index.py
+-  0/7   37_summary_ranges.py
+-  0/5   38_jewels_and_stones.py
+-  0/5   39_set_mismatch.py
+-  0/7   40_is_subsequence.py
+-  0/5   41_rotate_image.py
+-  0/5   42_find_disappeared_numbers.py
+-  0/6   43_merge_sorted_arrays.py
+-  0/7   44_longest_repeating_replacement.py
+-  0/5   45_valid_sudoku.py
+-  0/6   46_find_all_anagrams.py
+-  0/6   47_unique_emails.py
+-  0/7   48_second_largest.py
 
-Solved 10/48 problems
+# Solved 10/48 problems
 ```
 
 - [speedrun_2/_runner.py](speedrun_2/_runner.py) — Shared test runner (PASS/FAIL per case, counter, timing)
